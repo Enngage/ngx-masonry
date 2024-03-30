@@ -49,18 +49,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-masonry-gallery:build"
+            "buildTarget": "ngx-masonry-gallery:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-masonry-gallery:build:production"
+              "buildTarget": "ngx-masonry-gallery:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-masonry-gallery:build"
+            "buildTarget": "ngx-masonry-gallery:build"
           }
         },
         "test": {
